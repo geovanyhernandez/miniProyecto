@@ -1,4 +1,4 @@
-public class Avion extends aeroPuerto {
+public class Avion{
 	private String aerolinea;
 	private int numerovuelo;
 	

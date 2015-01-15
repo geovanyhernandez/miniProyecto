@@ -2,12 +2,13 @@ import java.util.Scanner;
 public class Main {
 	public static void main(String[] args){
 		
-		Avion informacion = new Avion();
+		aeroPuerto informacion = new aeroPuerto();
 		
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("nombre de aeropuerto: ");
 		informacion.setNombre(sc.next());
+	
 			
 		System.out.println("nombre de aerolinea: ");
 		informacion.setAerolinea(sc.next());
